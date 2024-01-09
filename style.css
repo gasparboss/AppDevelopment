@@ -1,12 +1,55 @@
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 body{
-    color: white;
     background-image: linear-gradient(to right, rgba(2, 90, 134, 1), rgba(112, 5, 138, 1));
 }
-main{
-    
+nav{
+    display: flex;
+    gap: 5rem;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    padding-top: 2rem;
+    flex-wrap: wrap;
+}
+
+nav ul{
+    display: flex;
+    gap: 2rem;
+}
+
+nav ul a{
+    text-decoration: none;
+}
+
+nav ul li{
+    list-style-type: none;
+}
+
+nav ul h1 a, nav ul li a{
+    color: white;
+}
+
+nav ul li a{
+    letter-spacing: 2px;
+    transition:  color .2s;
+}
+nav ul li a:hover{
+    color: rgb(76, 130, 217);
+}
+
+nav ul:nth-child(3) li:nth-child(2) a{
+    border-radius: 7px;
+    border-color: white;
+    border-width: 2px;
+    border-style: ridge;
+    padding: 1rem;
+}
+
+nav ul:nth-child(3) li:nth-child(2) a:active{
+    border-color: rgb(176, 176, 176
 }
