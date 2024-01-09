@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    color: white;
+    background-image: linear-gradient(to right, rgba(2, 90, 134, 1), rgba(112, 5, 138, 1));
+}
+main{
+    
+}
