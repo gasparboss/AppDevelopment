@@ -7,6 +7,18 @@
 body{
     background-image: linear-gradient(to right, rgba(2, 90, 134, 1), rgba(112, 5, 138, 1));
 }
+
+.container{
+    margin-top: 15rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.left{
+    color: white;
+    width: 30rem;
+}
+
+
 nav{
     display: flex;
     gap: 5rem;
@@ -51,5 +63,5 @@ nav ul:nth-child(3) li:nth-child(2) a{
 }
 
 nav ul:nth-child(3) li:nth-child(2) a:active{
-    border-color: rgb(176, 176, 176
+    border-color: rgb(176, 176, 176)
 }
