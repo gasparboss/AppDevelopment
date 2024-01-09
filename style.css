@@ -1,9 +1,12 @@
-*{margin: 0; padding: 0; box-sizing: border-box;}
 
-body{
-    background-color: gray;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-
+body{
+    background-image: linear-gradient(to right, rgba(2, 90, 134, 1), rgba(112, 5, 138, 1));
+}
 nav{
     display: flex;
     gap: 5rem;
@@ -48,5 +51,5 @@ nav ul:nth-child(3) li:nth-child(2) a{
 }
 
 nav ul:nth-child(3) li:nth-child(2) a:active{
-    border-color: rgb(176, 176, 176);
+    border-color: rgb(176, 176, 176
 }
